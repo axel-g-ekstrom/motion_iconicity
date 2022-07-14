@@ -1,0 +1,28 @@
+ID:					Participant ID
+gender:				Participant reported gender
+age:				Participant reported age
+mother.tongue:		Participant reported mother tongue
+not.turkish:		1 if not stated turkish as mother tongue (exp 2)
+aware:				1 if post experiment comments indicate that the particpant was made aware of the pattern with rising/falling stimuli
+word.base:			The word spoken in the trial
+word:				The audio file played in the trial (indicating word and f0 movement)
+isRising:			1 if f0 increasing
+dir:				'down'/'up' depending on f0 movement
+dir.num:			+/- 0.5 depending on f0 movement (useful for regression modelling to test for overall congruency of responses)
+leftFilm:			Video file presented first, on the left side of the screen
+rightFilm:			Video file presented second, on the right side of the screen
+risingLeft:			1 if left video depicts a rising movement
+correctDir:			The response selecting the video with a congruent movement (to f0 movement)
+response:			Response in the main task:					left/right video selected (main task)
+congruent:			1 if video with a congruent movement (to f0 movement) selected (main task)
+rt:					Response time (main task)
+trial:				Trial index (main task)
+chosen.video:		The selected video (main task)
+not.chosen.video:	The not selected video (main task)
+resp.left:			1 if left video was selected (main task)
+resp.rising:		1 if left video was selected (main task)
+response.pd:		1 if selected video depicts a rising movement (main task)
+correct.pd:			1 if f0 movement was correctly identified (pitch discrimination task)
+rt.pd:				Response time (pitch discrimination task)
+trial.pd:			Trial index (pitch discrimination task)
+resp.rising.pd:		1 if response indicates an increasing f0 movement (pitch discrimination task)
